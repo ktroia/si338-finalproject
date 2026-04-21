@@ -1,5 +1,5 @@
 /*carousel from
- https://webdesign.tutsplus.com/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734t */
+ https://webdesign.tutsplus.com/how-to-build-a-simple-carousel-with-vlla-javascript--cms-41734t */
 .slider-wrapper {
   margin: 1rem;
   position: relative;
@@ -209,3 +209,8 @@ footer {
     margin-top: 10vh;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .slides-container{
+    scroll-behavior: auto;
+  }
+}
