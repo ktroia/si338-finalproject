@@ -169,7 +169,11 @@ nav a {
   justify-content: center;
     align-items: center;
 }
-
+  .pc-format{
+    display: grid;
+    align-items: center;
+    height: 100vh;
+  }
 /*PC ver */
 @media (min-width: 1200px) {
   .all-home a{
